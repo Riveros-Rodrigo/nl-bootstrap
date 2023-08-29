@@ -1,0 +1,1 @@
+Buenas! Espero esten muy bien. Les comento maso menos lo que hice fue hacer uso de clases de bootstrap y usar css. No me quedo 100% como quisiera y se que podria hacer un trabajo mucho mejor. Con respecto a las tablas no estoy muy familiarizado pero me gustaria aprender mucho mas de ellas, ojala me tengan en cuenta para seguir con el proceso. Saludos!

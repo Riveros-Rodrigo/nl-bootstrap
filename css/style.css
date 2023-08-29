@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 90%;
+    margin: auto;
+}
+header h1{
+    color: #0C66E7;
+    text-decoration: underline;
+}
+header h2{
+    color: #0C66E7;
+}
+/* imagen de fondo */
+.fondo-banner{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+}
+/* comienza banner */
+section .eslogan{
+    background-color: #004380;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 1px;
+}
+/* formulario */
+.contenedor-form{
+    width: 90%;
+    margin: auto;
+}
+form h3{
+    color: #004380;
+}
+form{
+    background-color: #fff;
+    box-shadow: 2px 1px 20px 5px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 1px 20px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 1px 20px 5px rgba(0,0,0,1);
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    position: relative;
+    z-index: 10;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid #DEDEDE;
+    padding: 0.5rem 0rem;
+    width: 100%;
+}
+form .boton{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+form button{
+    background-color: #004380;
+    border: none;
+    color: #fff;
+    padding: 5px 5px;
+}
+/* oferta */
+.contenedor-texto{
+    width: 90%;
+    margin: auto;
+}
+.texto-oferta{
+    background-color: #fff;
+    color: #004380;
+    position: relative;
+}
+/* cards */
+.card{
+    border: none;
+}
+.card-title{
+    background-color: #004684;
+}
+.titulo-hotel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.titulo-hotel h2{
+    color: #004684;
+}
+.fondo-card{
+    background-color: #f5ebe18a;
+    width: 10rem;
+}
+.card-img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    padding: 30px 10px 0px 10px;
+}
+.presio{
+    padding: 0px 10px 30px 10px;
+    font-size: 15px;
+}
+.dolares{
+    font-size: 25px;
+}
+.fondo-card p{
+    color: #004684;
+}
+h3{
+    color: #004684;
+}
+button{
+    background-color: #004684;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+.incluye p{
+color: #004684;
+text-align: start;
+margin: 0px;
+}
+.salida p{
+color: #004684;
+text-align: start;
+margin: 0px;
+}
+/* footer */
+footer{
+    background-color: #DEDEDE;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:900px) {
+    .texto-banner{
+        font-size: 30px;
+        padding-right: 5rem;
+        padding-bottom: 1rem;
+    }
+    form{
+        width: 50%;
+    }
+    .contenedor-form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contenedor-texto{
+        text-align: start;
+    }
+    .texto-oferta{
+    background-color: #fff;
+    color: #004380;
+    position: relative;
+    top: -149px;
+    z-index: 2;
+    text-align: start;
+    font-size: 25px;
+    width: 40%;
+}
+}
